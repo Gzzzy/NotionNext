@@ -67,7 +67,8 @@ const NotionPage = ({ post, className }) => {
         const imgList = document.querySelectorAll('.notion-collection-card-cover img')
         if (imgList && zoomRef.current) {
           for (let i = 0; i < imgList.length; i++) {
-            (zoomRef.current).attach(imgList[i] + '&w=1800')
+            imgList[i].src = imgList[i].src + '&width=1080&w=1080';
+            (zoomRef.current).attach(imgList[i])
           }
         }
 
@@ -88,7 +89,7 @@ const NotionPage = ({ post, className }) => {
     <NotionRenderer
       recordMap={post.blockMap}
       mapPageUrl={mapPageUrl}
-      mapImageUrl={mapImgUrl + '&w=360'}
+      mapImageUrl={mapImgUrl}
       components={{
         Code,
         Collection,

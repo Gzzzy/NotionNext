@@ -21,7 +21,7 @@ export const Header = (props) => {
                     <div className='flex space-x-6'>
                         <div className='hover:rotate-45 hover:scale-125 transform duration-200 cursor-pointer'>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={avatar + '&width=160'} className='rounded-full' width={160} alt={BLOG.AUTHOR} />
+                            <img src={avatar + '&width=160&w=160'} className='rounded-full' width={160} alt={BLOG.AUTHOR} />
                         </div>
 
                         <div>

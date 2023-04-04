@@ -48,7 +48,7 @@ const Nav = props => {
                         {/* <SvgIcon/> */}
                         {CONFIG_NOBELIUM.NAV_NOTION_ICON
                         /* eslint-disable-next-line @next/next/no-img-element */
-                          ? <img src={siteInfo?.icon + '&width=40'} width={24} height={24} alt={BLOG.AUTHOR} />
+                          ? <img src={siteInfo?.icon + '&width=40&w=40'} width={24} height={24} alt={BLOG.AUTHOR} />
                           : <SvgIcon />}
 
                     </div>
