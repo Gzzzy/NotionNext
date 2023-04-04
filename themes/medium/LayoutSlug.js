@@ -57,7 +57,7 @@ export const LayoutSlug = props => {
                     <Link href="/about" passHref legacyBehavior>
                         <div className='flex pt-2'>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={siteInfo?.icon} className='rounded-full cursor-pointer' width={22} alt={BLOG.AUTHOR} />
+                            <img src={siteInfo?.icon + '&width=40'} className='rounded-full cursor-pointer' width={22} alt={BLOG.AUTHOR} />
 
                             <div className="mr-3 ml-2 my-auto text-green-500 cursor-pointer">
                                 {BLOG.AUTHOR}

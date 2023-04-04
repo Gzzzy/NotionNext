@@ -20,7 +20,7 @@ const SideBar = (props) => {
                     <div onClick={() => { router.push('/') }}
                         className='justify-center items-center flex hover:rotate-45 py-6 hover:scale-105 dark:text-gray-100  transform duration-200 cursor-pointer'>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={siteInfo?.icon} className='rounded-full' width={80} alt={BLOG.AUTHOR} />
+                        <img src={siteInfo?.icon + '&width=80'} className='rounded-full' width={80} alt={BLOG.AUTHOR} />
                     </div>
                     <MenuGroupCard {...props} />
                 </div>
