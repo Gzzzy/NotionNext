@@ -74,7 +74,7 @@ const TopNav = (props) => {
         {tags && (
             <section className='mt-4'>
                 <div className='text-sm py-2 px-2 flex flex-nowrap justify-between font-light dark:text-gray-200'>
-                    <div className='text-gray-600 dark:text-gray-200'><i className='mr-2 fas fa-tag' />{locale.COMMON.TAGS}</div>
+                    <div className='text-gray-600 dark:text-gray-200'><i className='mr-2 fas fa-tags' />{locale.COMMON.TAGS}</div>
                     <Link
                         href={'/tag'}
                         passHref

@@ -10,7 +10,7 @@ const TagItemMiddle = ({ tag, selected = false }) => {
         mr-2 py-0.5 px-2 text-md whitespace-nowrap text-white  ${selected ? 'bg-black' : 'bg-green-600'}`}>
 
           <div className='font-light'>
-              {selected && <i className='mr-1 fas fa-tag' />}
+              {selected && <i className='mr-1 fas fa-tags' />}
               {tag.name + (tag.count ? `(${tag.count})` : '')} </div>
 
       </Link>

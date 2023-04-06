@@ -9,7 +9,7 @@ export const LayoutTagIndex = props => {
     <LayoutBase {...props}>
       <div className="bg-white dark:bg-gray-700 py-10">
         <div className="dark:text-gray-200 mb-5">
-          <i className="mr-4 fas fa-tag" />
+          <i className="mr-4 fas fa-tags" />
           {locale.COMMON.TAGS}:
         </div>
         <div id="tags-list" className="duration-200 flex flex-wrap">

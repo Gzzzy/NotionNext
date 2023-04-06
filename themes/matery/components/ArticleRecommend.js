@@ -21,7 +21,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
 
   return (
     <div className="p-2">
-      <div className=" mb-2 px-1 flex flex-nowrap justify-between">
+      <div className="px-2 mb-2 flex flex-nowrap justify-between">
         <div>
           <i className="mr-2 fas fa-thumbs-up" />
           {locale.COMMON.RELATE_POSTS}

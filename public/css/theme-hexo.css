@@ -1,7 +1,7 @@
 /*  菜单下划线动画 */
 #theme-hexo .menu-link {
     text-decoration: none;
-    background-image: linear-gradient(orangered, red);
+    background-image: linear-gradient(orangered, darkred);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 0 2px;

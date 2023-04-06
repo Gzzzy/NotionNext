@@ -71,7 +71,7 @@ const SideAreaRight = (props) => {
                 <Card>
                     <div className="text-sm pb-1 px-2 flex flex-nowrap justify-between font-light dark:text-gray-200">
                         <div className="text-gray-600 dark:text-gray-200">
-                            <i className="mr-2 fas fa-tag" />
+                            <i className="mr-2 fas fa-tags" />
                             {locale.COMMON.TAGS}
                         </div>
                         <Link
@@ -93,7 +93,7 @@ const SideAreaRight = (props) => {
             {BLOG.COMMENT_WALINE_SERVER_URL && BLOG.COMMENT_WALINE_RECENT && <Card>
                 <div className="text-sm pb-1 px-2 flex flex-nowrap justify-between font-light dark:text-gray-200">
                     <div className="text-gray-600 dark:text-gray-200">
-                        <i className="mr-2 fas fa-tag" />
+                        <i className="mr-2 fas fa-tags" />
                         {locale.COMMON.RECENT_COMMENTS}
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
   }
 
   return <>
-    <div className=" mb-2 px-1 flex flex-nowrap justify-between">
+    <div className="px-2 mb-2  flex flex-nowrap justify-between">
       <div>
         <i className="mr-2 fas fas fa-history" />
         {locale.COMMON.LATEST_POSTS}

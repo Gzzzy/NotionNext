@@ -30,3 +30,7 @@
 .border-l-6 {
     border-left-width: 6px;
 }
+
+:is(.dark .notion-collection-card) {
+    background-color: #8d8d8d;
+}

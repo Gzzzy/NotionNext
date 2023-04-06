@@ -10,7 +10,7 @@ export const LayoutTagIndex = props => {
     <LayoutBase {...props} className='mt-12'>
       <Card className='w-full'>
         <div className="dark:text-gray-200 mb-5 ml-4">
-          <i className="mr-4 fas fa-tag" />
+          <i className="mr-4 fas fa-tags" />
           {locale.COMMON.TAGS}:
         </div>
         <div id="tags-list" className="duration-200 flex flex-wrap ml-8">
