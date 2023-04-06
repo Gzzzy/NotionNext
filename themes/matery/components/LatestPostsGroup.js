@@ -37,7 +37,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
           title={post.title}
           href={`${BLOG.SUB_PATH}/${post.slug}`}
           passHref
-          className={'my-2 flex'}>
+          className={'my-2 flex px-2'}>
 
           <div
             className="w-20 h-16 bg-cover bg-center bg-no-repeat"
