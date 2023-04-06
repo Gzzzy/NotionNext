@@ -7,8 +7,8 @@ export const LayoutCategoryIndex = props => {
   const { categoryOptions } = props
   const { locale } = useGlobal()
   return (
-    <LayoutBase {...props}>
-      <Card className="w-full min-h-screen pt-12">
+    <LayoutBase {...props} className='mt-8'>
+      <Card className="w-full min-h-screen">
         <div className="dark:text-gray-200 mb-5 mx-3">
           <i className="mr-4 fas fa-th" />
           {locale.COMMON.CATEGORY}:
