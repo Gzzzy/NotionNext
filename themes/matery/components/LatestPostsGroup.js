@@ -45,9 +45,9 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
           />
           <div
             className={
-              (selected ? ' text-indigo-400 ' : 'dark:text-gray-400 ') +
+              (selected ? ' text-green-500 ' : 'dark:text-gray-400 ') +
               ' text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded ' +
-              'hover:text-white dark:hover:text-indigo-400 cursor-pointer items-center flex'
+              'hover:text-white dark:hover:text-green-500 cursor-pointer items-center flex'
             }
           >
             <div>

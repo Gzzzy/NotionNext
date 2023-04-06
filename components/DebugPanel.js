@@ -45,7 +45,7 @@ export function DebugPanel() {
       case 'true':
         return <span className='text-green-500'>true</span>
       case 'false':
-        return <span className='text-red-500'>false</span>
+        return <span className='text-green-500'>false</span>
       case '':
         return '-'
     }
@@ -97,7 +97,7 @@ export function DebugPanel() {
                         <div className="text-xs">
                             {Object.keys(themeConfig).map(k => (
                                 <div key={k} className="justify-between flex py-1">
-                                    <span className="bg-indigo-500 p-0.5 rounded text-white mr-2">
+                                    <span className="bg-green-500 p-0.5 rounded text-white mr-2">
                                         {k}
                                     </span>
                                     <span className="whitespace-nowrap">

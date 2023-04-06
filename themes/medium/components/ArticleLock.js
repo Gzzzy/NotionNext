@@ -17,7 +17,7 @@ export const ArticleLock = props => {
       const tips = document.getElementById('tips')
       if (tips) {
         tips.innerHTML = ''
-        tips.innerHTML = `<div class='text-red-500 animate__shakeX animate__animated'>${locale.COMMON.PASSWORD_ERROR}</div>`
+        tips.innerHTML = `<div class='text-green-500 animate__shakeX animate__animated'>${locale.COMMON.PASSWORD_ERROR}</div>`
       }
     }
   }

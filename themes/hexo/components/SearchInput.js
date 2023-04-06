@@ -64,7 +64,7 @@ const SearchInput = props => {
   }
 
   return (
-    <div className={'flex w-full rounded-lg ' + className}>
+    <div className={'flex w-full rounded-lg shadow ' + className}>
       <input
         ref={searchInputRef}
         type="text"

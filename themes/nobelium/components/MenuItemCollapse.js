@@ -31,12 +31,12 @@ export const MenuItemCollapse = (props) => {
             {!hasSubMenu && <Link
                 href={link?.to}
                 className="font-extralight  flex justify-between pl-2 pr-4 dark:text-gray-200 no-underline tracking-widest pb-1">
-                <span className=' hover:text-red-400 transition-all items-center duration-200'>{link?.icon && <span className='mr-2'><i className={link.icon}/></span>}{link?.name}</span>
+                <span className=' hover:text-green-500 transition-all items-center duration-200'>{link?.icon && <span className='mr-2'><i className={link.icon}/></span>}{link?.name}</span>
             </Link>}
              {hasSubMenu && <div
                 onClick={hasSubMenu ? toggleOpenSubMenu : null}
                 className="font-extralight flex justify-between pl-2 pr-4 cursor-pointer  dark:text-gray-200 no-underline tracking-widest pb-1">
-                <span className=' hover:text-red-400 transition-all items-center duration-200'>{link?.icon && <span className='mr-2'><i className={link.icon}/></span>}{link?.name}</span>
+                <span className=' hover:text-green-500 transition-all items-center duration-200'>{link?.icon && <span className='mr-2'><i className={link.icon}/></span>}{link?.name}</span>
                <i className='px-2 fa fa-plus text-gray-400'></i>
             </div>}
         </div>

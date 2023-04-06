@@ -19,7 +19,7 @@ export const LayoutCategory = props => {
                           const selected = e.name === category
                           return (
                               <Link key={e.name} href={`/category/${e.name}`} passHref legacyBehavior>
-                                  <div className='duration-300 text-md whitespace-nowrap dark:hover:text-white px-5 cursor-pointer py-2 hover:text-indigo-400' >
+                                  <div className='duration-300 text-md whitespace-nowrap dark:hover:text-white px-5 cursor-pointer py-2 hover:text-green-500' >
                                       <i className={`mr-4 fas  ${selected ? 'fa-folder-open' : 'fa-folder'}`}/>
                                       {e.name}({e.count})
                                   </div>

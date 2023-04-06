@@ -20,7 +20,7 @@ const JumpToCommentButton = () => {
   return (<div
         onClick={navToComment}
         className='flex space-x-1 items-center justify-center cursor-pointer transform hover:scale-105 duration-200 w-7 h-7 text-center'>
-        <i className='fas fa-comments text-xl text-white bg-indigo-700 py-3 px-2 rounded-full' />
+        <i className='fas fa-comments text-xl text-white bg-green-600 py-3 px-2 rounded-full' />
     </div>)
 }
 

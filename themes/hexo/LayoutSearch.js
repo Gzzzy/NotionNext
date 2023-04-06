@@ -30,7 +30,7 @@ export const LayoutSearch = props => {
             const instance = new Mark(container)
             instance.markRegExp(re, {
               element: 'span',
-              className: 'text-red-500 border-b border-dashed'
+              className: 'text-green-500 border-b border-dashed'
             })
           }
         }
@@ -58,7 +58,7 @@ export const LayoutSearch = props => {
                                     legacyBehavior>
                                     <div
                                         className={
-                                            ' duration-300 dark:hover:text-white rounded-lg px-5 cursor-pointer py-2 hover:bg-indigo-400 hover:text-white'
+                                            ' duration-300 dark:hover:text-white rounded-lg px-5 cursor-pointer py-2 hover:bg-green-500 hover:text-white'
                                         }
                                     >
                                         <i className="mr-4 fas fa-folder" />

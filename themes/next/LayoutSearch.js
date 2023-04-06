@@ -17,7 +17,7 @@ export const LayoutSearch = (props) => {
       const instance = new Mark(container)
       instance.markRegExp(re, {
         element: 'span',
-        className: 'text-red-500 border-b border-dashed'
+        className: 'text-green-500 border-b border-dashed'
       })
     }
   }, 200)

@@ -17,7 +17,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
             href={`${BLOG.SUB_PATH}/${post.slug}`}
             passHref
             className={`replace cursor-pointer hover:underline text-2xl ${showPreview ? 'text-center' : ''
-                } leading-tight text-gray-600 dark:text-gray-100 hover:text-indigo-700 dark:hover:text-indigo-400`}>
+                } leading-tight text-gray-600 dark:text-gray-100 hover:text-indigo-700 dark:hover:text-green-500`}>
 
             {post.title}
 
@@ -26,7 +26,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
         {/* 日期 */}
         <div
             className={`flex mt-2 items-center ${showPreview ? 'justify-center' : 'justify-start'
-                } flex-wrap dark:text-gray-500 text-gray-400 hover:text-indigo-700 dark:hover:text-indigo-400`}
+                } flex-wrap dark:text-gray-500 text-gray-400 hover:text-indigo-700 dark:hover:text-green-500`}
         >
             <Link
                 href={`/archive#${post?.date?.start_date?.substr(0, 7)}`}
@@ -69,7 +69,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
             <Link
                 href={`/category/${post.category}`}
                 passHref
-                className="cursor-pointer font-light text-sm hover:underline hover:text-indigo-700 dark:hover:text-indigo-400 transform">
+                className="cursor-pointer font-light text-sm hover:underline hover:text-indigo-700 dark:hover:text-green-500 transform">
 
                 <i className="mr-1 far fa-folder" />
                 {post.category}

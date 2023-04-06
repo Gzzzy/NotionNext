@@ -21,7 +21,7 @@ export const LayoutSearch = props => {
         const instance = new Mark(container)
         instance.markRegExp(re, {
           element: 'span',
-          className: 'text-red-500 border-b border-dashed'
+          className: 'text-green-500 border-b border-dashed'
         })
       }
     }, 100)
@@ -36,7 +36,7 @@ export const LayoutSearch = props => {
             const re = new RegExp(`${keyword}`, 'gim')
             container.innerHTML = container.innerHTML.replace(
               re,
-              `<span class='text-red-500 border-b border-dashed'>${keyword}</span>`
+              `<span class='text-green-500 border-b border-dashed'>${keyword}</span>`
             )
           }
         }
