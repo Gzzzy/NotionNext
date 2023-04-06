@@ -11,9 +11,9 @@ export const LayoutTag = (props) => {
   })
 
   return (
-      <LayoutBase {...props} className='mt-8'>
+      <LayoutBase {...props} className='mt-12'>
             {tag && (
-                <div className="cursor-pointer px-3 py-2 mb-2 font-light hover:text-indigo-700 dark:hover:text-green-500 transform dark:text-white">
+                <div className="cursor-pointer px-3 py-2 mb-2 font-light hover:text-green-600 dark:hover:text-green-500 transform dark:text-white">
                     <Link
                         key={tag}
                         href={`/tag/${encodeURIComponent(tag.name)}`}

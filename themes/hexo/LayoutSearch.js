@@ -38,9 +38,9 @@ export const LayoutSearch = props => {
     }, 100)
   })
   return (
-      <LayoutBase {...props} currentSearch={currentSearch} className='pt-8'>
+      <LayoutBase {...props} currentSearch={currentSearch} className='pt-12'>
           {!currentSearch && <>
-              <div className="my-6 mt-12 px-2">
+              <div className="my-6 px-2 mt-0">
                   <SearchInput cRef={cRef} {...props} />
                   {/* 分类 */}
                   <Card className="w-full mt-4">
