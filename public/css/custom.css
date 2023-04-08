@@ -34,3 +34,28 @@
 :is(.dark .notion-collection-card) {
     background-color: #8d8d8d;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    border-color: #e1e1e1;
+    margin-bottom: 0.5rem !important;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    border-color: #666666;
+}
+
+.dark .notion-asset-caption {
+    color: #babcbf;
+}
+
+.dark .notion-red, .dark .notion-red_co, .dark .notion-inline-code {
+    color: rgb(133, 255, 148);
+}
+
+.dark .notion-bookmark {
+    border-color: rgba(118, 118, 118, 1);
+}
+
+:is(.dark .dark\:bg-gray-600) {
+    background-color: rgba(69, 69, 69, 1);
+}

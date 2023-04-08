@@ -39,7 +39,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
                     passHref
                     className={'my-2 flex px-2'}>
 
-                    <div className="w-20 h-16 overflow-hidden relative rounded-sm">
+                    <div className="w-24 h-16 overflow-hidden relative rounded-sm">
                           {/* <Image
                             src={headerImage}
                             fill
@@ -49,17 +49,17 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
                             quality={10}
                             alt={post.title} /> */}
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={headerImage + '&width=128&w=128'} className='object-cover w-full h-full'/>
+                            <img src={headerImage + '&width=128&w=128'} className='object-cover w-full h-full py-1'/>
                     </div>
                     <div
                         className={
                             (selected ? ' text-green-500 ' : 'dark:text-gray-400 ') +
-                            ' text-sm overflow-x-hidden hover:text-green-600 px-2 duration-200 w-full rounded ' +
+                            ' text-sm overflow-x-hidden hover:text-green-500 px-2 duration-200 w-full rounded ' +
                             ' hover:text-green-500 cursor-pointer items-center flex'
                         }
                     >
                         <div>
-                            <div className='text-line-2'>{post.title}</div>
+                            <div className='text-line-2 hover:underline hover:text-green-500'>{post.title}</div>
                             <div className="text-gray-500">{post.lastEditedTime}</div>
                         </div>
                     </div>
