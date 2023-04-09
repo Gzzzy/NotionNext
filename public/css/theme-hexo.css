@@ -1,7 +1,7 @@
 /*  菜单下划线动画 */
 #theme-hexo .menu-link {
     text-decoration: none;
-    background-image: linear-gradient(#f64242, white);
+    background-image: linear-gradient(#eeeeee, #3c3c3c);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 0 2px;
@@ -10,7 +10,6 @@
  
 #theme-hexo .menu-link:hover {
     background-size: 100% 2px;
-    color: #f64242;
 }
 
 /* 设置了从上到下的渐变黑色 */
