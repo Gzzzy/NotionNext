@@ -30,7 +30,7 @@ export const LayoutArchive = props => {
                     <Link
                       href={`${BLOG.SUB_PATH}/${post.slug}`}
                       passHref
-                      className="dark:text-gray-400  dark:hover:text-gray-300 overflow-x-hidden hover:underline cursor-pointer text-gray-600">
+                      className="dark:text-gray-400 hover:text-gray-300 overflow-x-hidden hover:underline cursor-pointer text-gray-600">
 
                       {post.title}
 
